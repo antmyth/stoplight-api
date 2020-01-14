@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: intro
+  version: '0.1'
+  license:
+    name: MIT
+servers:
+  - url: 'http://localhost:3000'
+    description: default
+paths:
+  /basics/intro:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ../models/basics.v1.yaml
+      operationId: get-basics-intro
+components:
+  schemas: {}

@@ -1,0 +1,9 @@
+title: basics
+type: object
+description: some basic description here
+properties:
+  id:
+    type: string
+    format: uuid
+required:
+  - id
