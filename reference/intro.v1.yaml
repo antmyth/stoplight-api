@@ -19,6 +19,8 @@ paths:
             application/json:
               schema:
                 $ref: ../models/basics.v1.yaml
+              examples: {}
       operationId: get-basics-intro
+      description: Some description
 components:
   schemas: {}
