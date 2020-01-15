@@ -10,7 +10,7 @@ servers:
 paths:
   /basics/intro:
     get:
-      summary: Your GET endpoint
+      summary: get basic intro data
       tags: []
       responses:
         '200':
